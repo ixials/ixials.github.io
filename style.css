@@ -1,45 +1,90 @@
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=VT323&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background: #ffffff; 
-    font-family: Helvetica, sans-serif; 
-    max-width: 800px;
-    margin: auto;
-    line-height: 1.5;
+  background: #ffffff;
+  font-family: Helvetica, sans-serif;
+  line-height: 1.5;
 }
 
 h2 {
-    color:#3656c0;
-    font-family: "Pixelify Sans", sans-serif;
-    font-size: 50px;
-    margin-top: 25px;
-    margin-bottom: 0px;
+  color: #7f3952;
+  font-family: 'Pixelify Sans', sans-serif;
+  font-size: 50px;
+  margin-top: 25px;
+  margin-bottom: 0px;
 }
 
 h3 {
-    color:#000000;
-    font-weight: bold;
-    font-size: 25px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+  color: #487283;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 a {
-    color:#4d4d4d;
-    text-decoration: None;
+  color: #4d4d4d;
+  text-decoration: None;
 }
 
 a:hover {
-    color:#808080
+  color: #808080;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding-left: 1.25em;
+  text-indent: -1.1em;
+}
+
+li::before {
+  content: '• '; /* Custom bullet character */
+  margin-right: 0.5em; /* Space between bullet and text */
+  /* You can add more styling here for the bullet, e.g., color, font-size */
 }
 
 icons {
-    display: flex;
-    gap: 15px
+  display: flex;
+  gap: 15px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+  margin-bottom: 50px;
+}
+
+.gallery {
+  display: inline-block;
+  margin: 5px;
+}
+
+.gallery img {
+  object-fit: cover;
+  width: 225px;
+  height: 225px;
+}
+
+.blue-text {
+  color: #487283;
+}
+
+.pink-text {
+  color: #e06592;
+}
+
+nav {
+  transition: all 10s ease;
 }
