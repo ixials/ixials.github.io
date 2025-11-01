@@ -119,6 +119,26 @@ icons {
   font-size: 18px;
 }
 
+#left {
+  position: absolute;
+  top: 255px;
+  left: 200px;
+  font-size: 40px;
+  color: #7f3952;
+  cursor: pointer;
+  user-select: none;
+}
+
+#right {
+  position: absolute;
+  top: 255px;
+  right: 200px;
+  font-size: 40px;
+  color: #7f3952;
+  cursor: pointer;
+  user-select: none;
+}
+
 #close {
   position: absolute;
   top: 20px;
